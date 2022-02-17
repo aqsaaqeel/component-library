@@ -35,7 +35,7 @@ body{
 .div-flex{
     display: flex;
 }
-.div-flex p{
+.div-flex-text{
     margin: 0;
     font-size: 2rem;
 }
@@ -46,7 +46,6 @@ body{
     min-width: 100px;
     max-width: 100px;
     border-radius: 50%;
-    background-color: var(--primary-color);
 }
 .badge-avatar{
     width: 100%;
