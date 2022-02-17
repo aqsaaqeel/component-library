@@ -1,5 +1,6 @@
 :root{
     --primary-color: #DAA06D;
+    --badge-color: #F5F5F5;
 }
 
 *{
@@ -62,5 +63,5 @@ body{
     height: 20px;
     width: 20px;
     text-align: center;
-    color: whitesmoke;
+    color: var(--badge-color);
 }
