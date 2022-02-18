@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/styles/reset.css">
-    <link rel="stylesheet" href="/styles/avatar-badge.css">
-    <link rel="stylesheet" href="/styles/alert-button.css">
+    <link rel="stylesheet" href="index.css">   
     <title>Component Library</title>
 </head>
 
@@ -44,13 +42,13 @@
     <div class="comp" id="alert-component">
         <h1 class="heading1">Alert</h1>
         <p class="component-info">Alert components are used to signify the state of the system</p>
-        <div class="red-alert">
+        <div class="alert-comp red">
             An Error occured
             <span class="alert-cross" onclick="this.parentElement.style.display = 'none'"><i
                     class="fa fa-times"></i></span>
         </div>
         <br>
-        <div class="green-alert">
+        <div class="alert-comp green">
             Saved successfully
             <span class="alert-cross" onclick="this.parentElement.style.display = 'none'"><i
                     class="fa fa-times"></i></span>
@@ -80,6 +78,72 @@
 
             <!-- floating button -->
             <a class="button button-floating"><i class="fa fa-tasks"></i></i></a>
+        </div>
+    </div>
+    <!-- card component -->
+    <div class="comp" id="card-component">
+        <h1 class="heading1">Card</h1>
+        <p class="component-info">Card can be used in many places</p>
+        <div class="basic-card-container">
+            <div class="card-heading">Crypto</div>
+            <div class="card-subheading">The new buzzword</div>
+            <div class="card-body">Crypto currency is the most talked about
+                topic these days. Click here to know more about it.
+            </div>
+            <div class="card-footer">
+                <div class="text-butons">
+                    <button class="btn wo-outline">Read</button>
+                    <button class="btn wo-outline">Bookmark</button>
+                </div>
+                <div class="icons-buttons">
+                    <button class="btn icon"><i class="fa fa-heart"></i></button>
+                    <button class="btn icon"><i class="fa fa-share"></i></button>
+                    <button class="btn icon"><i class="fa fa-bars"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="photo-card-container">
+            <div class="basic-card-container">
+                <img class="card-photo" src="crypto.jpg" alt="">
+                <div class="card-heading">Crypto</div>
+                <div class="card-subheading">The new buzzword</div>
+                <div class="card-body">Crypto currency is the most talked about
+                    topic these days. Click here to know more about it.
+                </div>
+                <div class="card-footer">
+                    <div class="text-butons">
+                        <button class="btn wo-outline">Read</button>
+                        <button class="btn wo-outline">Bookmark</button>
+                    </div>
+                    <div class="icons-buttons">
+                        <button class="btn icon"><i class="fa fa-heart"></i></button>
+                        <button class="btn icon"><i class="fa fa-share"></i></button>
+                        <button class="btn icon"><i class="fa fa-bars"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="photo-card-container text-on-picture">
+            <div class="basic-card-container">
+                <img class="card-photo" src="crypto.jpg" alt="">
+                <div class="card-heading">Crypto</div>
+                <div class="card-subheading">The new buzzword</div>
+                <div class="card-body">Crypto currency is the most talked about
+                    topic these days. Click here to know more about it.
+                </div>
+                <div class="card-footer">
+                    <div class="text-butons">
+                        <button class="btn wo-outline">Read</button>
+                        <button class="btn wo-outline">Bookmark</button>
+                    </div>
+                    <div class="icons-buttons">
+                        <button class="btn icon"><i class="fa fa-heart"></i></button>
+                        <button class="btn icon"><i class="fa fa-share"></i></button>
+                        <button class="btn icon"><i class="fa fa-bars"></i></button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
