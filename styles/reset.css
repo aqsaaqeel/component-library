@@ -1,6 +1,8 @@
 :root{
     --primary-color: #DAA06D;
     --badge-color: #F5F5F5;
+    --redalert-color: rgb(175, 29, 29);
+    --greenalert-color: rgb(20, 121, 20);
 }
 
 *{
