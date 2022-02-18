@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="index.css">   
+    <link rel="stylesheet" href="index.css">
     <title>Component Library</title>
 </head>
 
@@ -104,7 +105,7 @@
         </div>
         <div class="photo-card-container">
             <div class="basic-card-container">
-                <img class="card-photo" src="crypto.jpg" alt="">
+                <img class="card-photo" src="crypto.jpg" alt="Crypto" loading = "lazy">
                 <div class="card-heading">Crypto</div>
                 <div class="card-subheading">The new buzzword</div>
                 <div class="card-body">Crypto currency is the most talked about
@@ -126,7 +127,7 @@
 
         <div class="photo-card-container text-on-picture">
             <div class="basic-card-container">
-                <img class="card-photo" src="crypto.jpg" alt="">
+                <img class="card-photo" src="crypto.jpg" alt="Crypto" loading = "lazy">
                 <div class="card-heading">Crypto</div>
                 <div class="card-subheading">The new buzzword</div>
                 <div class="card-body">Crypto currency is the most talked about
@@ -146,5 +147,26 @@
             </div>
         </div>
     </div>
+
+    <!-- image component -->
+    <div class="comp" id="image-component">
+        <h1 class="heading1">Resonsive Image</h1>
+        <p class="component-info">Images are the life of any website. You can use these images which are responsive</p>
+        <img class="image" src="responsive_image.jpg" alt="Responsive image" loading = "lazy">
+        <img class="image-round" src="responsive_image.jpg" alt="Round image" loading = "lazy">
+    </div>
+
+    <!-- input component -->
+    <div class="comp" id="input-component">
+        <h1 class="heading1">Input</h1>
+        <p class="component-info">Inputs are used everuwhere in a website. From navbars to menus. Here are some
+            different
+            styles of input.
+        </p>
+        <input class="input-box" type="text" placeholder="Input field">
+        <input class="input-box valid-input" type="text" placeholder="Valid Input">
+        <input class="input-box invalid-input" type="text" placeholder="Invalid Input">
+    </div>
 </body>
+
 </html>
