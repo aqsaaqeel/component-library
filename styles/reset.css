@@ -11,3 +11,17 @@
     margin: 0;
     padding: 0;
 }
+
+.alert-comp.green{
+    background-color: var(--greenalert-color);
+}
+.alert-comp.red{
+    background-color: var(--redalert-color);
+}
+.alert-cross{
+    color: var(--badge-color);
+    cursor: pointer;
+}
+.alert-cross:hover{
+    color: black;
+}

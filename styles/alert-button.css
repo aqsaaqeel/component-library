@@ -1,25 +1,10 @@
-.red-alert{
-    background-color: var(--redalert-color);
+.alert-comp{
     padding: 0.5rem;
-    color: var(--bg-color);
+    color: var(--badge-color);
     font-size: 15px;
     border-radius: 0.4rem;
-}
-.green-alert{
-    background-color: var(--greenalert-color);
-    padding: 0.5rem;
-    color: var(--bg-color);
-    font-size: 15px;
-    border-radius: 0.4rem;
-}
-.alert-cross{
-    position: absolute;
-    right : 5%;
-    cursor: pointer;
-    float: right;
-}
-.alert-cross:hover{
-    color: black;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* button */
