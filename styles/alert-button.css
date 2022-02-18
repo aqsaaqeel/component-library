@@ -1,0 +1,59 @@
+.red-alert{
+    background-color: var(--redalert-color);
+    padding: 0.5rem;
+    color: var(--bg-color);
+    font-size: 15px;
+    border-radius: 0.4rem;
+}
+.green-alert{
+    background-color: var(--greenalert-color);
+    padding: 0.5rem;
+    color: var(--bg-color);
+    font-size: 15px;
+    border-radius: 0.4rem;
+}
+.alert-cross{
+    position: absolute;
+    right : 5%;
+    cursor: pointer;
+    float: right;
+}
+.alert-cross:hover{
+    color: black;
+}
+
+/* button */
+.buttons{
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.button{
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #ac7749;
+}
+.button-secondary{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    border: solid 0.1rem var(--primary-color);
+}
+.button-plain{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+}
+.button-onlyicon{
+    border-radius: 50%;
+    padding: 0.5rem 0.7rem;
+    color: var(--primary-color);
+    background-color: var(--bg-color);
+}
+.button-floating{
+    border-radius: 50%;
+    padding: 0.5rem 0.7rem;
+}
