@@ -1,0 +1,43 @@
+/* image style */
+.image{
+    width : 100%;
+    height: auto;
+    max-width: 15rem;
+}
+@media screen and (max-width:550px){
+    .image{
+        width : 100%;
+        height: auto;
+        max-width: 7rem;
+    }
+}
+.image-round{
+    width : 100%;
+    max-width: 15rem;
+    max-height: 15rem;
+    border-radius: 50%;
+}
+
+/* input screen */
+.input-box{
+    border-radius: 0.1rem;
+    margin-bottom: 1rem;
+    font: 1em sans-serif;
+    width: 70%;
+    cursor: pointer;
+}
+.input::placeholder {
+    color: black;
+}
+.invalid-input::placeholder {
+    color: var(--badge-color);
+}
+.valid-input::placeholder {
+    color: var(--badge-color);
+}
+.valid-input{
+    background-color: var(--greenalert-color);
+}
+.invalid-input{
+    background-color: var(--redalert-color);
+}
