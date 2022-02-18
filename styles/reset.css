@@ -1,0 +1,14 @@
+:root{
+    --primary-color: #DAA06D;
+    --badge-color: #F5F5F5;
+    --bg-color: #FFFFFF;
+    --redalert-color:rgb(194, 24, 24);
+    --greenalert-color:rgb(36, 177, 18);
+}
+
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
