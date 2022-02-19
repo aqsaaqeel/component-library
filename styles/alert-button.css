@@ -7,7 +7,6 @@
     justify-content: space-between;
 }
 
-/* button */
 .buttons{
     display: flex;
     padding-top: 1rem;
@@ -21,7 +20,7 @@
     cursor: pointer;
 }
 .button:hover{
-    background-color: #ac7749;
+    background-color: var(--primary-color);
 }
 .button-secondary{
     background-color: var(--bg-color);

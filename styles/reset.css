@@ -2,6 +2,7 @@
     --primary-color: #DAA06D;
     --badge-color: #F5F5F5;
     --bg-color: #FFFFFF;
+    --black-color: #000000;
     --redalert-color:rgb(194, 24, 24);
     --greenalert-color:rgb(36, 177, 18);
 }
@@ -24,9 +25,9 @@
     cursor: pointer;
 }
 .alert-cross:hover{
-    color: black;
+    color: var(--black-color);
 }
-/* typography style */
+
 .light-heading{
     font-weight: lighter;
 }
