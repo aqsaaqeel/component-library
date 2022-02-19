@@ -1,4 +1,3 @@
-/* image style */
 .image{
     width : 100%;
     height: auto;
@@ -18,7 +17,6 @@
     border-radius: 50%;
 }
 
-/* input screen */
 .input-box{
     border-radius: 0.1rem;
     margin-bottom: 1rem;
@@ -27,7 +25,7 @@
     cursor: pointer;
 }
 .input::placeholder {
-    color: black;
+    color: var(--black-color);
 }
 .invalid-input::placeholder {
     color: var(--badge-color);

@@ -1,4 +1,3 @@
-/* card style */
 .basic-card-container{
     background-color: var(--badge-color);
     padding: 1rem;
@@ -50,7 +49,6 @@
     top : 53%;
 }
 .photo-card-container .card-footer{
-    /* margin-bottom: 1rem; */
     padding-bottom: 1rem;
 }
 .text-on-picture .card-subheading{

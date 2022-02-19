@@ -1,0 +1,62 @@
+.container{
+    position: relative;
+}
+
+.container .navigation
+{
+    position : relative;
+    width : 20rem;
+    height: 100vh;
+    background: var(--bg-color);
+    border-radius: 0;
+    overflow:hidden;
+}
+.container .navigation .nav-ul .nav-list-item a:hover
+{
+    background: var(--primary-color);
+    color: var(--bg-color);
+    border-radius: 0.5rem;
+}
+
+.container .navigation .nav-ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.container .navigation .nav-ul .nav-list-item{
+    position: relative;
+    list-style: none;
+    width: 100%;
+}
+.container .navigation .nav-ul .nav-list-item .comp-links{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+.container .navigation .nav-ul .nav-list-item .comp-links .title{
+    position: relative;
+    display: block;
+    height: 2rem;
+    line-height: 20px;
+
+}
+.main-area{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem;
+}
+.comp{
+    margin-bottom: 2rem;
+}
+.heading1{
+    font-size: 3rem;
+}
+.component-info{
+    font-size: 1.5rem;
+}

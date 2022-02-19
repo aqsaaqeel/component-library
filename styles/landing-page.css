@@ -1,0 +1,71 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--badge-color);
+}
+.doc-container{
+    display: flex;
+}
+.title{
+    font-size: 2.5rem;
+    margin: 1.5rem;
+    margin-left: 2rem;
+}
+.menu-items .menu-item-list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.menu-items .list-item{
+    list-style: none;
+}
+
+.menu-items .list-item a {
+    text-decoration: none;
+    color: var(--badge-color);
+    font-size: 2rem;
+    margin: 1rem;
+    display: block;
+}
+.container{
+    position: relative;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.hero-title{
+    font-size: 10rem;
+}
+.hero-detail{
+    font-size: 2em;
+    font-weight: 100;
+    padding: 1rem;
+}
+.title-april{
+    color: var(--primary-color);
+}
+.title-ui{
+    background-color: var(--primary-color);
+    animation-name: change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    color: var(--badge-color);
+    padding: 0.2rem;
+    border-radius: 0.4rem;
+}
+@keyframes change {
+    from{color: var(--badge-color);}
+    to{color:var(--black-color);}
+}
