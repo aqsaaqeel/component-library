@@ -7,14 +7,14 @@
     position : relative;
     width : 20rem;
     height: 100vh;
-    background: white;
+    background: var(--bg-color);
     border-radius: 0;
     overflow:hidden;
 }
 .container .navigation .nav-ul .nav-list-item a:hover
 {
     background: var(--primary-color);
-    color: white;
+    color: var(--bg-color);
     border-radius: 0.5rem;
 }
 

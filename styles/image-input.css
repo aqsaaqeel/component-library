@@ -25,7 +25,7 @@
     cursor: pointer;
 }
 .input::placeholder {
-    color: black;
+    color: var(--black-color);
 }
 .invalid-input::placeholder {
     color: var(--badge-color);
