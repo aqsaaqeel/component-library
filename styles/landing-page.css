@@ -27,7 +27,7 @@
     list-style: none;
 }
 
-.menu-items .list-item a {
+.menu-items .list-item .menu-link {
     text-decoration: none;
     color: var(--badge-color);
     font-size: 2rem;
