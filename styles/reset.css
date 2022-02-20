@@ -2,6 +2,7 @@
     --primary-color: #DAA06D;
     --badge-color: #F5F5F5;
     --bg-color: #FFFFFF;
+    --black-color: #000000;
     --redalert-color:rgb(194, 24, 24);
     --greenalert-color:rgb(36, 177, 18);
 }
@@ -13,16 +14,36 @@
     padding: 0;
 }
 
-.alert-comp.green{
-    background-color: var(--greenalert-color);
-}
-.alert-comp.red{
-    background-color: var(--redalert-color);
-}
 .alert-cross{
     color: var(--badge-color);
     cursor: pointer;
 }
 .alert-cross:hover{
-    color: black;
+    color: var(--black-color);
+}
+
+.light-heading{
+    font-weight: lighter;
+}
+.bold-heading{
+    font-weight: bolder;
+}
+.small-para{
+    font-size: 1rem;
+}
+.medium-para{
+    font-size: 1.5rem;
+}
+.big-para{
+    font-size: 2rem;
+}
+.heading1{
+    font-size: 2rem;
+}
+.heading2{
+    font-size: 1.5rem;
+}
+
+.small-space{
+    margin-bottom: 2rem;
 }

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/index.css">
+    <title>Component Library</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <nav class="nav-container">
+            <div class="title">AprilUI</div>
+            <div class="menu-items">
+                <ul class="menu-item-list">
+                    <li class="list-item"><a class = "menu-link" href="#" onClick="history.go(-1)">Home</a></li>
+                    <li class="list-item"><a class = "menu-link" href="documentation.html">Documentation</a></li>
+                    <li class="list-item"><a class = "menu-link" href="#">Source</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="doc-container">
+            <div class="container">
+                <div class="navigation">
+                    <ul class = "nav-ul">
+                        <li class="nav-list-item">
+                            <a class="comp-links" href="#alert-component">
+                                <span class="title">Alert</span>
+                            </a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a class="comp-links" href="#avatar-component">
+                                <span class="title">Avatar</span>
+                            </a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a class="comp-links" href="#badge-component">
+                                <span class="title">Badge</span>
+                            </a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a class="comp-links" href="#button-component">
+                                <span class="title">Button</span>
+                            </a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a class="comp-links" href="#card-component">
+                                <span class="title">Card</span>
+                            </a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a class="comp-links" href="#image-component">
+                                <span class="title">Image</span>
+                            </a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a class="comp-links" href="#input-component">
+                                <span class="title">Input</span>
+                            </a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a class="comp-links" href="#typography-component">
+                                <span class="title">Typography</span>
+                            </a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a class="comp-links" href="#list-component">
+                                <span class="title">List</span>
+                            </a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a class="comp-links" href="#rating-component">
+                                <span class="title">Rating</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="main-area">
+                <!-- avatar component -->
+                <div class="comp" id="avatar-component">
+                    <h1 class="heading1">Avatar</h1>
+                    <p class="component-info">Avatars are graphical representation of users or user persona</p>
+                    <img class="small-round-avatar" src="avatar1.jpg" alt="Small Avatar" loading="lazy">
+                    <img class="medium-round-avatar" src="avatar1.jpg" alt="Medium Avatar" loading="lazy">
+                    <img class="large-round-avatar" src="avatar1.jpg" alt="Big Avatar" loading="lazy">
+                </div>
+
+                <!-- badge component -->
+                <div class="comp" id="badge-component">
+                    <h1 class="heading1">Badge</h1>
+                    <p class="component-info">Badge are used on avatars and icons to represent an activity</p>
+                    <div class="div-flex">
+                        <span class="badge-icon"><i class="fa fa-camera"></i></span>
+                        <span class="badge">1</span>
+                    </div>
+                    <div class="text div-flex">
+                        <p class="div-flex-text">hello</p>
+                        <span class="badge">1</span>
+                    </div>
+                    <div class="div-flex">
+                        <span><img class="badge-avatar" src="avatar1.jpg" alt="Badge on Avatar" loading="lazy"></span>
+                        <span class=" badge">1</span>
+
+                    </div>
+                </div>
+
+                <!--alert component-->
+                <div class="comp" id="alert-component">
+                    <h1 class="heading1">Alert</h1>
+                    <p class="component-info">Alert components are used to signify the state of the system</p>
+                    <div class="alert-comp red">
+                        An Error occured
+                        <span class="alert-cross" onclick="this.parentElement.style.display = 'none'"><i
+                                class="fa fa-times"></i></span>
+                    </div>
+                    <br>
+                    <div class="alert-comp green">
+                        Saved successfully
+                        <span class="alert-cross" onclick="this.parentElement.style.display = 'none'"><i
+                                class="fa fa-times"></i></span>
+                    </div>
+                </div>
+
+                <!-- button component -->
+                <div class="comp" id="button-component">
+                    <h1 class="heading1">Button</h1>
+                    <p class="component-info">Buttons are used to invoke functionality</p>
+                    <div class="buttons">
+                        <a class="button button-primary">Button</a>
+                        <!-- with border -->
+                        <a class="button button-secondary">Button</a>
+
+                        <!-- without borders -->
+                        <a class="button button-plain">Button</a>
+
+                        <!-- with link -->
+                        <a class="button button-link" href="#">Button</a>
+
+                        <!-- with icon -->
+                        <a class="button button-withicon"><i class="fa fa-phone"></i> Button</a>
+
+                        <!-- icon only button -->
+                        <a class="button button-onlyicon"><i class="fa fa-phone"></i></a>
+
+                        <!-- floating button -->
+                        <a class="button button-floating"><i class="fa fa-phone"></i></i></a>
+                    </div>
+                </div>
+                <!-- card component -->
+                <div class="comp" id="card-component">
+                    <h1 class="heading1">Card</h1>
+                    <p class="component-info">Card can be used in many places</p>
+                    <div class="basic-card-container">
+                        <div class="card-heading">Crypto</div>
+                        <div class="card-subheading">The new buzzword</div>
+                        <div class="card-body">Crypto currency is the most talked about
+                            topic these days. Click here to know more about it.
+                        </div>
+                        <div class="card-footer">
+                            <div class="text-butons">
+                                <button class="btn wo-outline">Read</button>
+                                <button class="btn wo-outline">Bookmark</button>
+                            </div>
+                            <div class="icons-buttons">
+                                <button class="btn icon"><i class="fa fa-heart"></i></button>
+                                <button class="btn icon"><i class="fa fa-share"></i></button>
+                                <button class="btn icon"><i class="fa fa-bars"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="photo-card-container">
+                        <div class="basic-card-container">
+                            <img class="card-photo" src="crypto.jpg" alt="Crypto" loading="lazy">
+                            <div class="card-heading">Crypto</div>
+                            <div class="card-subheading">The new buzzword</div>
+                            <div class="card-body">Crypto currency is the most talked about
+                                topic these days. Click here to know more about it.
+                            </div>
+                            <div class="card-footer">
+                                <div class="text-butons">
+                                    <button class="btn wo-outline">Read</button>
+                                    <button class="btn wo-outline">Bookmark</button>
+                                </div>
+                                <div class="icons-buttons">
+                                    <button class="btn icon"><i class="fa fa-heart"></i></button>
+                                    <button class="btn icon"><i class="fa fa-share"></i></button>
+                                    <button class="btn icon"><i class="fa fa-bars"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="photo-card-container text-on-picture">
+                        <div class="basic-card-container">
+                            <img class="card-photo" src="crypto.jpg" alt="Crypto" loading="lazy">
+                            <div class="card-heading">Crypto</div>
+                            <div class="card-subheading">The new buzzword</div>
+                            <div class="card-body">Crypto currency is the most talked about
+                                topic these days. Click here to know more about it.
+                            </div>
+                            <div class="card-footer">
+                                <div class="text-butons">
+                                    <button class="btn wo-outline">Read</button>
+                                    <button class="btn wo-outline">Bookmark</button>
+                                </div>
+                                <div class="icons-buttons">
+                                    <button class="btn icon"><i class="fa fa-heart"></i></button>
+                                    <button class="btn icon"><i class="fa fa-share"></i></button>
+                                    <button class="btn icon"><i class="fa fa-bars"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- image component -->
+                <div class="comp" id="image-component">
+                    <h1 class="heading1">Resonsive Image</h1>
+                    <p class="component-info">Images are the life of any website. You can use these images which are
+                        responsive
+                    </p>
+                    <img class="image" src="responsive_image.jpg" alt="Responsive image" loading="lazy">
+                    <img class="image-round" src="responsive_image.jpg" alt="Round image" loading="lazy">
+                </div>
+
+                <!-- input component -->
+                <div class="comp" id="input-component">
+                    <h1 class="heading1">Input</h1>
+                    <p class="component-info">Inputs are used everuwhere in a website. From navbars to menus. Here are
+                        some
+                        different
+                        styles of input.
+                    </p>
+                    <input class="input-box" type="text" placeholder="Input field">
+                    <input class="input-box valid-input" type="text" placeholder="Valid Input">
+                    <input class="input-box invalid-input" type="text" placeholder="Invalid Input">
+                </div>
+
+                <br>
+                <br>
+
+                <!-- typography component -->
+                <div class="comp" id="typography-component">
+                    <h1 class="heading1">Typography</h1>
+                    <p class="component-info">Text makes your content meaningful</p>
+                    <div class="sub-comp div-flex-text">
+                        <h2 class="heading2">Headings</h2>
+                        <p class="heading2-info">There are different sizes of headings you can use</p>
+                        <div class="sub-component">
+                            <h1 class="light-heading">Heading 1</h1>
+                            <h2 class="bold-heading">Heading 2 but bold</h2>
+                            <h3 class="light-heading">Heading 3</h3>
+                            <h4 class="bold-heading">Heading 4 but bold</h4>
+                        </div>
+                    </div>
+
+                    <!-- input component -->
+                    <div class="comp" id="input-component">
+                        <h1 class="heading1">Input</h1>
+                        <p class="component-info">Inputs are used everuwhere in a website. From navbars to menus. Here
+                            are some
+                            different
+                            styles of input.
+                        </p>
+                        <input class="input-box" type="text" placeholder="Input field">
+                        <input class="input-box valid-input" type="text" placeholder="Valid Input">
+                        <input class="input-box invalid-input" type="text" placeholder="Invalid Input">
+                    </div>
+                    <br>
+                    <br>
+
+                    <!-- typography component -->
+                    <div class="comp" id="typography-component">
+                        <h1 class="heading1">Typography</h1>
+                        <div class="small-space"></div>
+                        <p class="component-info">Text makes your content meaningful</p>
+                        <div class="small-space"></div>
+                        <div class="sub-comp div-flex-text">
+                            <h2 class="heading2">Headings</h2>
+                            <div class="small-space"></div>
+                            <div class="small-space"></div>
+                            <p class="heading2-info">There are different sizes of headings you can use</p>
+                            <div class="sub-component">
+                                <h1 class="light-heading">Heading 1</h1>
+                                <h2 class="bold-heading">Heading 2 but bold</h2>
+                                <h3 class="light-heading">Heading 3</h3>
+                                <h4 class="bold-heading">Heading 4 but bold</h4>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="small-space"></div>
+                        <div class="sub-comp">
+                            <h2 class="heading2">Paragraph</h2>
+                            <!-- <div class="small-space"></div> -->
+                            <p class="heading2-info">Paragraph is used to explain info</p>
+                            <div class="small-space"></div>
+                            <div class="small-space"></div>
+                            <div class="sub-component">
+                                <h3 class="heading3">Small Paragraph</h3>
+                                <p class="small-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Numquam nihil doloremque eos tenetur deserunt aperiam odit repudiandae, ipsam
+                                    voluptate
+                                    sint,
+                                    quibusdam
+                                    sapiente et amet.
+                                    Quaerat corporis blanditiis omnis veritatis eius!
+                                </p>
+
+                                <h3 class="heading3">Medium Paragraph</h3>
+                                <p class="medium-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Numquam nihil doloremque eos tenetur deserunt aperiam odit repudiandae, ipsam
+                                    voluptate
+                                    sint,
+                                    quibusdam
+                                    sapiente et amet.
+                                    Quaerat corporis blanditiis omnis veritatis eius!
+                                </p>
+
+                                <h3 class="heading3">Big Pararaph</h3>
+                                <p class="big-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Numquam nihil doloremque eos tenetur deserunt aperiam odit repudiandae, ipsam
+                                    voluptate
+                                    sint,
+                                    quibusdam
+                                    sapiente et amet.
+                                    Quaerat corporis blanditiis omnis veritatis eius!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="small-space"></div>
+                        <br>
+                        <!-- list component -->
+                        <div class="comp" id="list-component">
+                            <h1 class="heading1">List</h1>
+                            <p class="component-info">Lists are helpful in organising your data</p>
+                            <br>
+                            <div class="sub-comp"></div>
+                            <h2 class="heading2">Unordered lists</h2>
+                            <p class="heading2-info">These type of lists are ordered in no particular order</p>
+                            <div class="sub-component">
+                                <ul>
+                                    <li>Element 1</li>
+                                    <li>Element 2</li>
+                                    <li>Element 3</li>
+                                </ul>
+                            </div>
+                            <br>
+
+                            <div class="sub-comp">
+                                <h2 class="heading2">Ordered lists</h2>
+                                <p class="heading2-info">These type of lists are ordered in a particular order</p>
+                                <div class="sub-component">
+                                    <ol>
+                                        <li>Element 1</li>
+                                        <li>Element 2</li>
+                                        <li>Element 3</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- rating component -->
+        <div class = "comp" id = "rating-component">
+            <h1 class = "heading1">Rating</h1>
+            <p class = "component-info">Star rating can be used to rate any component</p>    
+            <div class = "stars">
+                <a>⭐</a>
+                <a>⭐</a>
+                <a>⭐</a>
+                <a>⭐</a>
+                <a>⭐</a>
+                </div>
+            <script src="script.js"></script>
+        </div>    
+        </div>
+    </div>
+</body>
+
+</html>
