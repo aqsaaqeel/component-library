@@ -1,0 +1,18 @@
+.stars a{
+    font-size: 3rem;
+    color: var(--primary-color);
+    opacity: 50%;
+    cursor: pointer;
+}
+.stars:hover a{
+    opacity: 100%;
+}
+.stars a:hover{
+    opacity: 100%
+} 
+.stars a:hover ~a{
+    opacity: 50%;
+}
+.stars a.active{
+    opacity: 100%;
+}
