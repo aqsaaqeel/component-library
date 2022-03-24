@@ -37,6 +37,20 @@
 .big-para{
     font-size: 2rem;
 }
+.centered-text{
+    display: flex;
+    text-align: center;
+    /* flex-wrap: wrap; */
+}
+.code-snippet{
+    display: flex;
+    justify-content: center;
+}
+.image.code-snippet{
+    width : 100%;
+    max-width: 50rem;
+    min-width: 30rem;
+}
 .heading1{
     font-size: 2rem;
 }

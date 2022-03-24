@@ -81,6 +81,23 @@
             </div>
 
             <div class="main-area">
+                <!--alert component-->
+                <div class="comp" id="alert-component">
+                    <h1 class="heading1">Alert</h1>
+                    <p class="component-info">Alert components are used to signify the state of the system</p>
+                    <div class="alert-comp red">
+                        An Error occured
+                        <span class="alert-cross" onclick="this.parentElement.style.display = 'none'"><i
+                                class="fa fa-times"></i></span>
+                    </div>
+                    <br>
+                    <div class="alert-comp green">
+                        Saved successfully
+                        <span class="alert-cross" onclick="this.parentElement.style.display = 'none'"><i
+                                class="fa fa-times"></i></span>
+                    </div>
+                </div>
+                
                 <!-- avatar component -->
                 <div class="comp" id="avatar-component">
                     <h1 class="heading1">Avatar</h1>
@@ -109,22 +126,6 @@
                     </div>
                 </div>
 
-                <!--alert component-->
-                <div class="comp" id="alert-component">
-                    <h1 class="heading1">Alert</h1>
-                    <p class="component-info">Alert components are used to signify the state of the system</p>
-                    <div class="alert-comp red">
-                        An Error occured
-                        <span class="alert-cross" onclick="this.parentElement.style.display = 'none'"><i
-                                class="fa fa-times"></i></span>
-                    </div>
-                    <br>
-                    <div class="alert-comp green">
-                        Saved successfully
-                        <span class="alert-cross" onclick="this.parentElement.style.display = 'none'"><i
-                                class="fa fa-times"></i></span>
-                    </div>
-                </div>
                 <!-- button component -->
                 <div class="comp" id="button-component">
                     <h1 class="heading1">Button</h1>
@@ -248,55 +249,67 @@
                     <p class="component-info">Text makes your content meaningful</p>
                     <div class="small-space"></div>
                     <div class="sub-comp div-flex-text">
-                        <h2 class="heading2">Headings</h2>
+                        <h2 class="heading2"> ⭐ Headings</h2>
                         <div class="small-space"></div>
                         <div class="small-space"></div>
-                        <p class="heading2-info">There are different sizes of headings you can use</p>
+                        <p class="component-info">There are different sizes of headings you can use. You can use the h1, h2, h3...
+                            depending on your size preference. And then you can put class name as light-heading or dark-heading
+                            to get light or dark text as shown in the below code snippets.
+                        </p>
                         <div class="sub-component">
                             <h1 class="light-heading">Heading 1</h1>
+                            <div class = "code-snippet">
+                                <img class = "image code-snippet" src="./h1-heading.png" alt="Code Snippet for h1 heading" loading = "lazy">
+                            </div>
                             <h2 class="bold-heading">Heading 2 but bold</h2>
+                            <div class = "code-snippet">
+                                <img class = "image code-snippet" src="./h2-heading.png" alt="Code Snippet for h2 heading" loading = "lazy">
+                            </div>
                             <h3 class="light-heading">Heading 3</h3>
+                            <div class = "code-snippet">
+                                <img class = "image code-snippet" src="./h3-heading.png" alt="Code Snippet for h3 heading" loading = "lazy">
+                            </div>
                             <h4 class="bold-heading">Heading 4 but bold</h4>
+                            <div class = "code-snippet">
+                                <img class = "image code-snippet" src="./h4-heading.png" alt="Code Snippet for h4 heading" loading = "lazy">
+                            </div>
                         </div>
                     </div>
                     <br>
                     <div class="small-space"></div>
                     <div class="sub-comp">
-                        <h2 class="heading2">Paragraph</h2>
-                        <!-- <div class="small-space"></div> -->
-                        <p class="heading2-info">Paragraph is used to explain info</p>
+                        <h2 class="heading2"> ⭐ Paragraph</h2>
                         <div class="small-space"></div>
+                        <!-- <div class="small-space"></div> -->
+                        <p class="component-info">Paragraph is used to explain info. You can use different sizes of paragraphs 
+                            by giving the class name as big-para, medium-para and small-para
+                        </p>
                         <div class="small-space"></div>
                         <div class="sub-component">
-                            <h3 class="heading3">Small Paragraph</h3>
-                            <p class="small-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                Numquam nihil doloremque eos tenetur deserunt aperiam odit repudiandae, ipsam
-                                voluptate
-                                sint,
-                                quibusdam
-                                sapiente et amet.
-                                Quaerat corporis blanditiis omnis veritatis eius!
-                            </p>
-
-                            <h3 class="heading3">Medium Paragraph</h3>
-                            <p class="medium-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                Numquam nihil doloremque eos tenetur deserunt aperiam odit repudiandae, ipsam
-                                voluptate
-                                sint,
-                                quibusdam
-                                sapiente et amet.
-                                Quaerat corporis blanditiis omnis veritatis eius!
-                            </p>
-
                             <h3 class="heading3">Big Pararaph</h3>
-                            <p class="big-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                Numquam nihil doloremque eos tenetur deserunt aperiam odit repudiandae, ipsam
-                                voluptate
-                                sint,
-                                quibusdam
-                                sapiente et amet.
-                                Quaerat corporis blanditiis omnis veritatis eius!
+                            <p class="big-para">The size of this paragraph is biggest. The size of this paragraph is biggest.
+                                 The size of this paragraph is biggest.</p>
+                            <div class = "code-snippet">
+                                <img class = "image code-snippet" src="./big-para.png" alt="Code Snippet for big paragraph" loading = "lazy">
+                            </div>
+                            <h3 class="heading3">Medium Paragraph</h3>
+                            <p class="medium-para">The size of this paragraph is medium. The size of this paragraph is medium.
+                                The size of this paragraph is medium.
                             </p>
+                            <div class = "code-snippet">
+                                <img class = "image code-snippet" src="./medium-para.png" alt="Code Snippet for mediumg paragraph" loading = "lazy">
+                            </div>
+                            <h3 class="heading3">Small Paragraph</h3>
+                            <p class="small-para">The size of this paragraph is small. The size of this paragraph is small.
+                                 The size of this paragraph is small.</p>
+                            <div class = "code-snippet">
+                                   <img class = "image code-snippet" src="./small-para.png" alt="Code Snippet for small paragraph" loading = "lazy">
+                            </div>
+                            <h3 class="heading3">Centered Paragraph</h3>
+                            <p class="medium-para centered-text">This paragraph is centered. This paragraph is centered. This paragraph is centered. </p>
+                            <div class = "code-snippet">
+                                <img class = "image code-snippet" src="./centered-para.png" alt="Code Snippet for centered paragraph" loading = "lazy">
+                            </div>
                         </div>
                     </div>
                 </div>
