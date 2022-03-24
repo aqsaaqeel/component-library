@@ -40,7 +40,6 @@
 .centered-text{
     display: flex;
     text-align: center;
-    /* flex-wrap: wrap; */
 }
 .code-snippet{
     display: flex;
