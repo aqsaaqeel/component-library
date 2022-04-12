@@ -5,10 +5,13 @@
 }
 .nav-container{
     display: flex;
+    position: fixed;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     background-color: var(--primary-color);
     color: var(--badge-color);
+    z-index: 3;
 }
 .doc-container{
     display: flex;
