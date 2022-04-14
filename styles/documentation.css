@@ -6,12 +6,16 @@
 }
 .container .navigation
 {
-    position : relative;
+    position : fixed;
     width : 20rem;
+    margin-top: 6rem;
     height: 100vh;
     background: var(--bg-color);
     border-radius: 0;
     overflow:hidden;
+}
+.navigation{
+    position: fixed;
 }
 .container .navigation .nav-ul .nav-list-item a:hover
 {
