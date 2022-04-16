@@ -2,10 +2,9 @@
     display: grid;
   }
   .grid-child{
-    border : solid 0.16rem black;
+    border : solid 0.16rem var(--black-color);
     height : 5rem;
-    /* width : 5rem; */
-    background-color: #DAA06D;
+    background-color: var(--primary-color);
     display : flex;
     align-items: center;
     justify-content: center;
