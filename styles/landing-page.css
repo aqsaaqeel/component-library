@@ -12,6 +12,7 @@
     background-color: var(--primary-color);
     color: var(--badge-color);
     z-index: 3;
+    box-shadow: 0.1rem 0.2rem grey
 }
 .doc-container{
     display: flex;

@@ -1,0 +1,12 @@
+.slidecontainer{
+    width: 100%;
+}
+.slider{
+    color: black;
+    font-size: 2rem;
+    width: 20rem;
+    height: 2rem;
+}
+.slider-detail{
+    font-size: 1.5rem;
+}
