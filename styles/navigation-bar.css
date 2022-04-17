@@ -4,6 +4,7 @@
     align-items: center;
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    box-shadow: 0.1rem 0.1rem grey;
 }
 
 .logo{
