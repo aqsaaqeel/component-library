@@ -14,3 +14,9 @@
 .alert-comp.red{
     background-color: var(--redalert-color);
 }
+@media screen and (max-width: 600px){
+    .main-area{
+        margin: 6.5rem 0 0 3rem;
+        padding-left: 2rem;
+    }
+}

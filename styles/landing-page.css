@@ -18,9 +18,14 @@
     display: flex;
 }
 .title{
+    display: flex;
     font-size: 2.5rem;
     margin: 1.5rem;
     margin-left: 2rem;
+}
+.title .title-link{
+    text-decoration: none;
+    color:var(--badge-color);
 }
 .menu-items .menu-item-list{
     margin: 0;
@@ -53,10 +58,29 @@
     font-size: 10rem;
 }
 .hero-detail{
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 100;
     padding: 1rem;
 }
+@media screen and (max-width: 600px){
+    .hero-title{
+        font-size: 5rem;
+    } 
+    .hero-detail{
+        font-size: 1rem;
+        font-weight: 50;
+        padding: 1rem;
+    }
+    .menu-items .menu-item-list{
+        display: flex;
+    }
+    .menu-items .list-item .menu-link {
+        font-size: 1.4rem;
+        margin: 0.7rem;
+        display: flex;
+    }
+}
+
 .title-april{
     color: var(--primary-color);
 }
