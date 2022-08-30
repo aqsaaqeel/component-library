@@ -1,11 +1,12 @@
 .slidecontainer{
-    width: 100%;
+    width: fit-content;
 }
 .slider{
     color: black;
     font-size: 2rem;
     width: 20rem;
     height: 2rem;
+    background: var(--primary-color);
 }
 .slider-detail{
     font-size: 1.5rem;
